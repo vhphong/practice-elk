@@ -1,0 +1,30 @@
+2024-07-20T20:26:46.932-05:00  INFO 22924 --- [practice-elk] [main] c.p.practice_elk.PracticeElkApplication  : Starting PracticeElkApplication using Java 21.0.3 with PID 22924 (C:\SpringBootProjects\practice-elk\target\classes started by vhpho in C:\SpringBootProjects\practice-elk)
+2024-07-20T20:26:46.935-05:00  INFO 22924 --- [practice-elk] [main] c.p.practice_elk.PracticeElkApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:26:48.118-05:00  INFO 22924 --- [practice-elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9898 (http)
+2024-07-20T20:26:48.132-05:00  INFO 22924 --- [practice-elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-20T20:26:48.132-05:00  INFO 22924 --- [practice-elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-20T20:26:48.184-05:00  INFO 22924 --- [practice-elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-20T20:26:48.185-05:00  INFO 22924 --- [practice-elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+2024-07-20T20:26:48.555-05:00  INFO 22924 --- [practice-elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9898 (http) with context path '/'
+2024-07-20T20:26:48.564-05:00  INFO 22924 --- [practice-elk] [main] c.p.practice_elk.PracticeElkApplication  : Started PracticeElkApplication in 2.203 seconds (process running for 2.759)
+2024-07-20T20:26:53.810-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-20T20:26:53.810-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-20T20:26:53.812-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-20T20:26:53.858-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-3] c.p.practice_elk.PracticeElkApplication  : User is found as : User(id=1, name=Liam)
+2024-07-20T20:27:32.552-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-2] c.p.practice_elk.PracticeElkApplication  : User is found as : User(id=1, name=Liam)
+2024-07-20T20:27:41.948-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-5] c.p.practice_elk.PracticeElkApplication  : User is found as : User(id=2, name=Pete)
+2024-07-20T20:27:50.739-05:00  INFO 22924 --- [practice-elk] [http-nio-9898-exec-6] c.p.practice_elk.PracticeElkApplication  : User is found as : User(id=3, name=Emma)
+2024-07-20T20:27:58.190-05:00 ERROR 22924 --- [practice-elk] [http-nio-9898-exec-4] c.p.practice_elk.PracticeElkApplication  : User with ID: 4 is not found
+2024-07-20T21:11:29.011-05:00  INFO 25096 --- [practice-elk] [main] c.p.practice_elk.PracticeElkApplication  : Starting PracticeElkApplication using Java 21.0.3 with PID 25096 (C:\SpringBootProjects\practice-elk\target\classes started by vhpho in C:\SpringBootProjects\practice-elk)
+2024-07-20T21:11:29.013-05:00  INFO 25096 --- [practice-elk] [main] c.p.practice_elk.PracticeElkApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:11:29.984-05:00  INFO 25096 --- [practice-elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9898 (http)
+2024-07-20T21:11:29.998-05:00  INFO 25096 --- [practice-elk] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-20T21:11:29.998-05:00  INFO 25096 --- [practice-elk] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-20T21:11:30.056-05:00  INFO 25096 --- [practice-elk] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-20T21:11:30.056-05:00  INFO 25096 --- [practice-elk] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 985 ms
+2024-07-20T21:11:30.379-05:00  INFO 25096 --- [practice-elk] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9898 (http) with context path '/'
+2024-07-20T21:11:30.386-05:00  INFO 25096 --- [practice-elk] [main] c.p.practice_elk.PracticeElkApplication  : Started PracticeElkApplication in 1.846 seconds (process running for 2.317)
+2024-07-20T21:11:39.233-05:00  INFO 25096 --- [practice-elk] [http-nio-9898-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-20T21:11:39.233-05:00  INFO 25096 --- [practice-elk] [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-20T21:11:39.234-05:00  INFO 25096 --- [practice-elk] [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-20T21:11:39.273-05:00 ERROR 25096 --- [practice-elk] [http-nio-9898-exec-1] c.p.practice_elk.PracticeElkApplication  : User with ID: 4 is not found
